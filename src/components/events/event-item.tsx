@@ -32,7 +32,7 @@ const EventItem = ({ event }: Props) => {
           </div>
         </div>
         <div className={styles.actions}>
-          <Button link={exploreLink}>
+          <Button onClick={undefined} link={exploreLink}>
             <span>Explore Event</span>
             <span className={styles.icon}>
               <ArrowRightIcon />
